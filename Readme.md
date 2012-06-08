@@ -15,6 +15,6 @@ Of course the, it requires **Node.js**.
 
 # Usage
 
-Edit *secret.js* so it contains your keys from Twitter. Then just run
+Edit *secret.json* so it contains your keys from Twitter. Then just run
 
     $ ./app.js
