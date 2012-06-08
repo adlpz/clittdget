@@ -15,9 +15,6 @@ var crypto = require("crypto");
 // Node.JS HTTPS (internally http)
 var http = require('https');
 
-// node-XMLHttpRequest
-var XMLHttpRequest = require("./libs/XMLHttpRequest.js").XMLHttpRequest;
-
 // Create OAuth signature
 function buildSignature(param) {
     // parameters includes all the parameters sent with the request
